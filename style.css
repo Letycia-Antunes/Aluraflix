@@ -3,6 +3,7 @@
 }
 
 .titulo {
+    text-align: center;
     color: rgb(51, 255, 0);
 }
 
@@ -11,5 +12,8 @@
 }
 
 .filme {
-    position: center;
+    display: flex;
+    justify-content: center; 
+    align-items:center; 
+    height: 100vh; 
 }
