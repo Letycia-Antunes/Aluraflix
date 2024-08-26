@@ -1,5 +1,11 @@
 .corpo {
-    background-color: blueviolet;
+    background-image: url(img/matrx.jpg);
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100vh; /* Define a altura do body para 100% da viewport */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .titulo {
